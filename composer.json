@@ -1,0 +1,27 @@
+{
+    "name": "code/challenge",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "TwitterApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "escapestudios/symfony2-coding-standard": "3.x-dev",
+        "phpunit/phpunit": "^6.2",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
